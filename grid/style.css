@@ -1,0 +1,29 @@
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    border: none;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-header {
+    display: flex;
+}
+
+.card-header > img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 16px;
+}

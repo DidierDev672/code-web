@@ -1,0 +1,23 @@
+.pulse {
+    width: 50px;
+    height: 50px;
+    background-color: #09f;
+    border-radius: 50%;
+    position: relative;
+    transition-duration: 2s;
+    transition-property: scale, background-color;
+    transition-timing-function: ease-in;
+}
+
+
+.pulse:hover{
+    scale: 2;
+    background-color: purple;
+    box-shadow: 0 0 10px purple;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
